@@ -1,3 +1,8 @@
+import product1 from '../../assets/1.jpg'
+import product2 from '../../assets/2.jpg'
+import product3 from '../../assets/3.jpg'
+import product4 from '../../assets/4.jpg'
+// import product1 from '../../assets/1.jpg'
 export const Card = () => {
     return <div id="carouselExample1" className="carousel slide">
         <div className="carousel-inner">
@@ -5,7 +10,7 @@ export const Card = () => {
                 <div class="row">
                     <div class="col-sm-4 mb-3 mb-sm-0">
                         <div class="card text-center mb-3">
-                        <img src="https://cdn.britannica.com/56/95756-050-94F3D181/Waterfall-Travellers-canvas-Bentheim-Castle-Beyond-Footbridge.jpg" class="card-img-top" alt="..." height={'350px'}/>
+                        <img src={product1} class="card-img-top" alt="..." height={'350px'}/>
                             <div class="card-body">
                                 <h5 class="card-title">Special title treatment</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -15,7 +20,7 @@ export const Card = () => {
                     </div>
                     <div class="col-sm-4">
                         <div class="card">
-                        <img src="https://cdn.britannica.com/56/95756-050-94F3D181/Waterfall-Travellers-canvas-Bentheim-Castle-Beyond-Footbridge.jpg" class="card-img-top" alt="..." height={'350px'}/>
+                        <img src={product2} class="card-img-top" alt="..." height={'350px'}/>
                             <div class="card-body">
                                 <h5 class="card-title">Special title treatment</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -25,7 +30,7 @@ export const Card = () => {
                     </div>
                     <div class="col-sm-4">
                         <div class="card">
-                        <img src="https://cdn.britannica.com/56/95756-050-94F3D181/Waterfall-Travellers-canvas-Bentheim-Castle-Beyond-Footbridge.jpg" class="card-img-top" alt="..." height={'350px'}/>
+                        <img src={product3} class="card-img-top" alt="..." height={'350px'}/>
                             <div class="card-body">
                                 <h5 class="card-title">Special title treatment</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -39,41 +44,7 @@ export const Card = () => {
                 <div class="row">
                     <div class="col-sm-4 mb-3 mb-sm-0">
                         <div class="card">
-                        <img src="https://cdn.britannica.com/56/95756-050-94F3D181/Waterfall-Travellers-canvas-Bentheim-Castle-Beyond-Footbridge.jpg" class="card-img-top" alt="..." height={'350px'}/>
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card">
-                        <img src="https://cdn.britannica.com/56/95756-050-94F3D181/Waterfall-Travellers-canvas-Bentheim-Castle-Beyond-Footbridge.jpg" class="card-img-top" alt="..." height={'350px'}/>
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="card">
-                        <img src="https://cdn.britannica.com/56/95756-050-94F3D181/Waterfall-Travellers-canvas-Bentheim-Castle-Beyond-Footbridge.jpg" class="card-img-top" alt="..." height={'350px'}/>
-                            <div class="card-body">
-                                <h5 class="card-title">Special title treatment</h5>
-                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="carousel-item">
-                <div class="row">
-                    <div class="col-sm-4 mb-3 mb-sm-0">
-                        <div class="card">
-                        <img src="https://cdn.britannica.com/56/95756-050-94F3D181/Waterfall-Travellers-canvas-Bentheim-Castle-Beyond-Footbridge.jpg" class="card-img-top" alt="..." height={'350px'}/>
+                        <img src={product4} class="card-img-top" alt="..." height={'350px'}/>
                             <div class="card-body">
                                 <h5 class="card-title">Special title treatment</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>

@@ -1,13 +1,13 @@
 import React from 'react'
 import { Card } from './Card'
-
+import product1 from '../../assets/1.jpg'
 export const Shop = () => {
     return (
         <>
             <div id="carouselExample" className="carousel slide">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="https://cdn.britannica.com/60/95760-050-899F8959/River-Landscape-canvas-oil-Adriaen-van-de-1663.jpg" className="d-block w-100" alt="..." height={'550px'} />
+                        <img src={product1} className="d-block w-100" alt="..." height={'550px'} />
                     </div>
                     <div className="carousel-item">
                         <img src="https://cdn.britannica.com/31/166231-050-49A5F77F/Adoration-of-the-Shepherds-canvas-Giorgione-Samuel.jpg" className="d-block w-100" alt="..." height={'550px'} />
