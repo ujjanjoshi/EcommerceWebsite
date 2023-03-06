@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Shop } from './pages/shop/shop';
 import { Cart } from './pages/cart/cart';
 import { Product } from './pages/product/product';
-import { PRODUCTS } from './DummyData/product';
 import { ShopContextProvider } from './context/shop-context';
+import { Signup } from './pages/signup/signup';
 function App() {
   return (
     <div className="App">
@@ -18,6 +18,7 @@ function App() {
             <Route path="/" element={<Shop />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/product" element={<Product />} />
+            <Route path="/signup" element={<Signup />} />
 
           </Routes>
           <Footer />

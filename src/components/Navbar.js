@@ -33,10 +33,10 @@ export const Navbar = () => {
              <button className="btn btn-outline-success" type="submit">Search</button>
            </form>
                       <li className="nav-item">
-                      <Link className="nav-link active" to="/Signin">Sign in</Link>
+                      <Link className="nav-link active" to="/signup" style={{color:"pink",border:"1px solid pink",backgroundColor:"transparent"}}>Sign in</Link>
              </li>
                      <li className="nav-item">
-                     <Link className="nav-link active" to="/Cart">
+                     <Link className="nav-link active" to="/Cart" style={{color:"pink"}}>
                       <ShoppingCart size={32}/>
                      </Link>
              </li>
@@ -45,9 +45,6 @@ export const Navbar = () => {
          </div>
        </div>
      </nav>
-     {/* <div className="image">
-     <img src="..." className="rounded mx-auto d-block" alt="..."/>
-     </div> */}
      </>
   )
 }
